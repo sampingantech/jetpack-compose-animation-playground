@@ -1,3 +1,7 @@
+import org.jetbrains.kotlin.gradle.plugin.PLUGIN_CLASSPATH_CONFIGURATION_NAME
+
+val linter: String? by project
+
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -16,7 +20,6 @@ android {
 
         testInstrumentationRunner("androidx.test.runner.AndroidJUnitRunner")
     }
-
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false
@@ -41,4 +44,10 @@ dependencies {
     testImplementation(Dependencies.Junit.junit)
     androidTestImplementation(Dependencies.AndroidX.junit)
     androidTestImplementation(Dependencies.AndroidX.espresso)
+
+    add(PLUGIN_CLASSPATH_CONFIGURATION_NAME, Dependencies.AndroidX.Compose.compiler)
+    implementation(Dependencies.AndroidX.Compose.ui)
+    implementation(Dependencies.AndroidX.Compose.activity)
+    implementation(Dependencies.AndroidX.Compose.foundation)
+    implementation(Dependencies.AndroidX.Compose.material)
 }
