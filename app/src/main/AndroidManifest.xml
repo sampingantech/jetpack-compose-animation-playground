@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".highlevel.AnimatedVisibilityActivity"/>
+        <activity android:name=".highlevel.AnimateContentSizeActivity"/>
     </application>
 
 </manifest>

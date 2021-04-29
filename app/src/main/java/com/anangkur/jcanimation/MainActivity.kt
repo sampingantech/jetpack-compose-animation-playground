@@ -14,6 +14,7 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
 import com.anangkur.jcanimation.highlevel.AnimatedVisibilityActivity
 
 class MainActivity : AppCompatActivity() {
@@ -31,8 +32,14 @@ class MainActivity : AppCompatActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Button(
+                            modifier = Modifier.padding(10.dp),
                             onClick = { AnimatedVisibilityActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_animated_visibility)) }
+                        )
+                        Button(
+                            modifier = Modifier.padding(10.dp),
+                            onClick = { AnimateContentSizeActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_animated_content_size)) }
                         )
                     }
                 }
