@@ -40,6 +40,7 @@ object Dependencies {
             const val activity = "androidx.activity:activity-compose:${Versions.AndroidX.Compose.activity}"
             const val material = "androidx.compose.material:material:${Versions.AndroidX.Compose.compose}"
             const val compiler = "androidx.compose.compiler:compiler:${Versions.AndroidX.Compose.compose}"
+            const val icon = "androidx.compose.material:material-icons-core:${Versions.AndroidX.Compose.compose}"
         }
     }
     object Google {
