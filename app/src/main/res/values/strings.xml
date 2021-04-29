@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Jetpack Compose Animation Playground</string>
+    <string name="title_animated_visibility">Animated Visibility</string>
 </resources>
