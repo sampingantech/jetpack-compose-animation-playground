@@ -13,6 +13,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -35,7 +37,22 @@ class AnimateContentSizeActivity: AppCompatActivity() {
 
         setContent {
             Scaffold(
-                topBar = { TopAppBar(title = { Text(text = getString(R.string.title_animated_content_size)) }) },
+                topBar = {
+                    TopAppBar(
+                        title = { Text(text = getString(R.string.title_animated_content_size))},
+                        navigationIcon = {
+                            IconButton(
+                                onClick = ::onBackPressed,
+                                content = {
+                                    Icon(
+                                        imageVector = Icons.Filled.ArrowBack,
+                                        contentDescription = null
+                                    )
+                                }
+                            )
+                        }
+                    )
+                },
                 content = {
                     Column(modifier = Modifier.padding(20.dp)) {
                         DefaultAnimatedContentSizeExample()
