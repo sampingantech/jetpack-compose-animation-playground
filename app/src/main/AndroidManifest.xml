@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".highlevel.AnimatedVisibilityActivity"/>
         <activity android:name=".highlevel.AnimateContentSizeActivity"/>
+        <activity android:name=".highlevel.CrossFadeActivity"/>
     </application>
 
 </manifest>

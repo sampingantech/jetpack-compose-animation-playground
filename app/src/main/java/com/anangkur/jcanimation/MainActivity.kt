@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
 import com.anangkur.jcanimation.highlevel.AnimatedVisibilityActivity
+import com.anangkur.jcanimation.highlevel.CrossFadeActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,6 +38,11 @@ class MainActivity : AppCompatActivity() {
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { AnimateContentSizeActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_animated_content_size)) }
+                        )
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { CrossFadeActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_cross_fade)) }
                         )
                     }
                 }
