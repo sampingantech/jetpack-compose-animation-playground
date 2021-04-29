@@ -8,4 +8,6 @@
     <string name="short_lorem_ipsum">lorem ipsum</string>
     <string name="text_expand">expand</string>
     <string name="collapse">collapse</string>
+    <string name="text_hide">Hide</string>
+    <string name="text_show">Show</string>
 </resources>
