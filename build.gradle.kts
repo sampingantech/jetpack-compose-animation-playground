@@ -1,16 +1,16 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.3.72"
+    val kotlin_version by extra("1.4.32")
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:4.1.3"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath(Dependencies.Android.gradlePlugin)
+        classpath(Dependencies.Kotlin.gradlePlugin)
 
         // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        // in the individual module build.gradle.kts files
     }
 }
 
@@ -21,6 +21,6 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+val clean by tasks.registering(Delete::class) {
+    delete = setOf(rootProject.buildDir)
 }
