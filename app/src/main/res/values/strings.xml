@@ -5,7 +5,7 @@
     <string name="long_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua.
     </string>
-    <string name="short_lorem_ipsum">lorem ipsum</string>
+    <string name="short_lorem_ipsum">Click Me!</string>
     <string name="text_expand">expand</string>
     <string name="collapse">collapse</string>
     <string name="text_hide">Hide</string>

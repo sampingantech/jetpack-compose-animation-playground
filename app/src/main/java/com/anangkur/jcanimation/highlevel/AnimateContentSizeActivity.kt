@@ -12,10 +12,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.Button
-import androidx.compose.material.Scaffold
-import androidx.compose.material.Text
-import androidx.compose.material.TopAppBar
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -50,40 +47,38 @@ class AnimateContentSizeActivity: AppCompatActivity() {
 
     @Composable
     private fun DefaultAnimatedContentSizeExample() {
-        val expand = remember { mutableStateOf(false) }
+        val expandWithout = remember { mutableStateOf(false) }
+        val expandWith = remember { mutableStateOf(false) }
         Column {
-            Text(text = "without animateContentSize()", modifier = Modifier.padding(vertical = 10.dp))
-            Box(modifier = Modifier.background(Color.Gray)) {
+            Text(text = "without animateContentSize()", modifier = Modifier.padding(bottom = 10.dp))
+            Box(modifier = Modifier.background(Color.Gray)
+                .clickable { expandWithout.value = expandWithout.value.not() }
+            ) {
                 Text(
                     modifier = Modifier.padding(10.dp),
-                    text = if (expand.value)
+                    text = if (expandWithout.value)
                         getString(R.string.long_lorem_ipsum)
                     else
                         getString(R.string.short_lorem_ipsum),
                     style = TextStyle(color = Color.White)
                 )
             }
-            Text(text = "with animateContentSize()", modifier = Modifier.padding(vertical = 10.dp))
-            Box(modifier = Modifier.background(Color.Blue).animateContentSize()) {
+
+            Divider(modifier = Modifier.padding(vertical = 20.dp))
+
+            Text(text = "with animateContentSize()", modifier = Modifier.padding(bottom = 10.dp))
+            Box(modifier = Modifier.background(Color.Blue).animateContentSize()
+                .clickable { expandWith.value = expandWith.value.not() }
+            ) {
                 Text(
                     modifier = Modifier.padding(10.dp),
-                    text = if (expand.value)
+                    text = if (expandWith.value)
                         getString(R.string.long_lorem_ipsum)
                     else
                         getString(R.string.short_lorem_ipsum),
                     style = TextStyle(color = Color.White)
                 )
             }
-            Button(
-                modifier = Modifier.padding(top = 10.dp).fillMaxWidth(),
-                onClick = { expand.value = expand.value.not() },
-                content = {
-                    Text(text = if (expand.value)
-                        getString(R.string.collapse)
-                    else
-                        getString(R.string.text_expand))
-                }
-            )
         }
     }
 }
