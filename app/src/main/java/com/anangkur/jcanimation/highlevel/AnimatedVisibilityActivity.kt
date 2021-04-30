@@ -64,7 +64,11 @@ class AnimatedVisibilityActivity: AppCompatActivity() {
                         .padding(20.dp)
                         .verticalScroll(rememberScrollState()),
                     ) {
-                        Text(text = "Default", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                        Text(
+                            text = "Default (enter: fadeIn() + expandHorizontally(), exit: fadeOut() + shrinkHorizontally())",
+                            fontSize = 18.sp,
+                            fontWeight = FontWeight.Bold
+                        )
                         DefaultAnimatedVisibilityExample(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
@@ -103,45 +107,10 @@ class AnimatedVisibilityActivity: AppCompatActivity() {
                         Text(text = "Shrink Vertical", fontSize = 18.sp, fontWeight = FontWeight.Bold)
                         ShrinkVerticalAnimatedVisibilityExample(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
-
-                        Text(text = "Bonus Expanded FAB", fontSize = 18.sp, fontWeight = FontWeight.Bold)
-                        ExpandableFab(modifier = Modifier.padding(top = 10.dp))
-                        Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
                     }
                 }
             )
         }
-    }
-
-    @ExperimentalAnimationApi
-    @Composable
-    private fun ExpandableFab(
-        modifier: Modifier = Modifier,
-    ) {
-        val expanded = remember { mutableStateOf(false) }
-        FloatingActionButton(
-            modifier = modifier,
-            onClick = { expanded.value = expanded.value.not() },
-            content = {
-                Row(
-                    modifier = Modifier.padding(horizontal = 16.dp),
-                    horizontalArrangement = Arrangement.Center,
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Icon(
-                        Icons.Default.Add,
-                        contentDescription = null,
-                    )
-                    AnimatedVisibility(
-                        visible = expanded.value,
-                        enter = slideInHorizontally(),
-                        exit = slideOutHorizontally()
-                    ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
-                    }
-                }
-            }
-        )
     }
 
     @ExperimentalAnimationApi
