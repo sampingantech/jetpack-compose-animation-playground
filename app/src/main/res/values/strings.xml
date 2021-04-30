@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Jetpack Compose Animation Playground</string>
+    <string name="app_name">JC Animation Playground</string>
 
     <string name="title_animated_visibility">Animated Visibility</string>
     <string name="title_animated_content_size">Animated Content Size</string>
