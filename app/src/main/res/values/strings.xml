@@ -20,4 +20,6 @@
     <string name="text_collapse">collapse</string>
     <string name="text_hide">Hide</string>
     <string name="text_show">Show</string>
+    <string name="title_high_level_api">High-Level APIs</string>
+    <string name="title_animation_spec">Animation Specs</string>
 </resources>

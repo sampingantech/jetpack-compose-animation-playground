@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                     Column(
                         modifier = Modifier.fillMaxSize().padding(20.dp).verticalScroll(rememberScrollState()),
                     ) {
-                        Text("High-Level APIs", modifier = Modifier.padding(10.dp))
+                        Text(getString(R.string.title_high_level_api), modifier = Modifier.padding(10.dp))
                         Button(
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { AnimatedVisibilityActivity.startActivity(this@MainActivity) },
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                             onClick = { CrossFadeActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_cross_fade)) }
                         )
-                        Text("Animation Specs", modifier = Modifier.padding(10.dp))
+                        Text(getString(R.string.title_animation_spec), modifier = Modifier.padding(10.dp))
                         Button(
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { TweenActivity.startActivity(this@MainActivity) },
