@@ -16,9 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".highlevel.AnimatedVisibilityActivity"/>
         <activity android:name=".highlevel.AnimateContentSizeActivity"/>
         <activity android:name=".highlevel.CrossFadeActivity"/>
+
+        <activity android:name=".animationspecs.TweenActivity"/>
+        <activity android:name=".animationspecs.SpringActivity"/>
+        <activity android:name=".animationspecs.KeyFramesActivity"/>
+        <activity android:name=".animationspecs.RepeatableActivity"/>
+        <activity android:name=".animationspecs.InfiniteRepeatableActivity"/>
+        <activity android:name=".animationspecs.SnapActivity"/>
     </application>
 
 </manifest>

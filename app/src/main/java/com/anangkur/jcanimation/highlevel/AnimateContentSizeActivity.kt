@@ -67,7 +67,7 @@ class AnimateContentSizeActivity: AppCompatActivity() {
         val expandWithout = remember { mutableStateOf(false) }
         val expandWith = remember { mutableStateOf(false) }
         Column {
-            Text(text = "without animateContentSize()", modifier = Modifier.padding(bottom = 10.dp))
+            Text(text = getString(R.string.text_without_animate_content_size), modifier = Modifier.padding(bottom = 10.dp))
             Box(modifier = Modifier.background(Color.Gray)
                 .clickable { expandWithout.value = expandWithout.value.not() }
             ) {
@@ -83,7 +83,7 @@ class AnimateContentSizeActivity: AppCompatActivity() {
 
             Divider(modifier = Modifier.padding(vertical = 20.dp))
 
-            Text(text = "with animateContentSize()", modifier = Modifier.padding(bottom = 10.dp))
+            Text(text = getString(R.string.text_with_animate_content_size), modifier = Modifier.padding(bottom = 10.dp))
             Box(modifier = Modifier.background(Color.Blue).animateContentSize()
                 .clickable { expandWith.value = expandWith.value.not() }
             ) {

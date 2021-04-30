@@ -56,16 +56,16 @@ class CrossFadeActivity : AppCompatActivity() {
                 content = {
                     val pageCrossFade = remember { mutableStateOf(0) }
                     val colors = arrayOf(
-                        Pair(Color.Red, "Red"),
-                        Pair(Color.Blue, "Blue"),
-                        Pair(Color.Gray, "Gray"),
-                        Pair(Color.Black, "Black"),
-                        Pair(Color.Yellow, "Yellow"),
-                        Pair(Color.LightGray, "LightGray"),
-                        Pair(Color.Cyan, "Cyan"),
-                        Pair(Color.Green, "Green"),
-                        Pair(Color.Magenta, "Magenta"),
-                        Pair(Color.DarkGray, "DarkGray"),
+                        Pair(Color.Red, getString(R.string.text_red)),
+                        Pair(Color.Blue, getString(R.string.text_blue)),
+                        Pair(Color.Gray, getString(R.string.text_gray)),
+                        Pair(Color.Black, getString(R.string.text_black)),
+                        Pair(Color.Yellow, getString(R.string.text_yellow)),
+                        Pair(Color.LightGray, getString(R.string.text_light_gray)),
+                        Pair(Color.Cyan, getString(R.string.text_cyan)),
+                        Pair(Color.Green, getString(R.string.text_green)),
+                        Pair(Color.Magenta, getString(R.string.text_magenta)),
+                        Pair(Color.DarkGray, getString(R.string.text_dark_gray)),
                     )
                     Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
                         Crossfade(
