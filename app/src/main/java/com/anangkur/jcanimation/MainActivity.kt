@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Button
 import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
@@ -26,9 +28,7 @@ class MainActivity : AppCompatActivity() {
                 },
                 content = {
                     Column(
-                        modifier = Modifier.fillMaxSize().padding(20.dp),
-                        verticalArrangement = Arrangement.Center,
-                        horizontalAlignment = Alignment.CenterHorizontally
+                        modifier = Modifier.fillMaxSize().padding(20.dp).verticalScroll(rememberScrollState()),
                     ) {
                         Text("High-Level APIs", modifier = Modifier.padding(10.dp))
                         Button(
