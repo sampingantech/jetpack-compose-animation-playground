@@ -26,6 +26,7 @@
         <activity android:name=".animationspecs.KeyFramesActivity"/>
         <activity android:name=".animationspecs.RepeatableActivity"/>
         <activity android:name=".animationspecs.InfiniteRepeatableActivity"/>
+        <activity android:name=".animationspecs.SnapActivity"/>
     </application>
 
 </manifest>

@@ -72,6 +72,11 @@ class MainActivity : AppCompatActivity() {
                             onClick = { InfiniteRepeatableActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_infinite_repeatable)) }
                         )
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { InfiniteRepeatableActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_snap)) }
+                        )
                     }
                 }
             )

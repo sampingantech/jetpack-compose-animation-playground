@@ -9,6 +9,7 @@
     <string name="title_keyframe">Key Frames</string>
     <string name="title_repeatable">Repeatable</string>
     <string name="title_infinite_repeatable">Infinite Repeatable</string>
+    <string name="title_snap">Snap</string>
 
     <string name="long_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua.
