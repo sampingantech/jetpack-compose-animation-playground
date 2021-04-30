@@ -22,4 +22,6 @@
     <string name="text_show">Show</string>
     <string name="title_high_level_api">High-Level APIs</string>
     <string name="title_animation_spec">Animation Specs</string>
+    <string name="text_without_animate_content_size">without animateContentSize()</string>
+    <string name="text_with_animate_content_size">with animateContentSize()</string>
 </resources>
