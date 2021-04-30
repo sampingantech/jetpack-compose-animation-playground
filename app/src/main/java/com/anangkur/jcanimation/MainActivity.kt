@@ -11,6 +11,7 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.anangkur.jcanimation.animationspecs.TweenActivity
 import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
 import com.anangkur.jcanimation.highlevel.AnimatedVisibilityActivity
 import com.anangkur.jcanimation.highlevel.CrossFadeActivity
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
                         verticalArrangement = Arrangement.Center,
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
+                        Text("High-Level APIs", modifier = Modifier.padding(10.dp))
                         Button(
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { AnimatedVisibilityActivity.startActivity(this@MainActivity) },
@@ -43,6 +45,12 @@ class MainActivity : AppCompatActivity() {
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { CrossFadeActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_cross_fade)) }
+                        )
+                        Text("Animation Specs", modifier = Modifier.padding(10.dp))
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { TweenActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_tween)) }
                         )
                     }
                 }
