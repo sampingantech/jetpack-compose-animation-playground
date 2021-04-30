@@ -24,4 +24,17 @@
     <string name="title_animation_spec">Animation Specs</string>
     <string name="text_without_animate_content_size">without animateContentSize()</string>
     <string name="text_with_animate_content_size">with animateContentSize()</string>
+    <string name="text_default_animated_visibility">Default (enter: fadeIn() + expandHorizontally(), exit: fadeOut() +
+        shrinkHorizontally())
+    </string>
+    <string name="text_slide_animated_visibility">Slide</string>
+    <string name="text_slide_horizontal_animated_visibility">Slide Horizontal</string>
+    <string name="text_slide_vertical_animated_visibility">Slide Vertical</string>
+    <string name="text_expand_horizontal_animated_visibility">Expand Horizontal</string>
+    <string name="text_expand_vertical_animated_visibility">Expand Vertical</string>
+    <string name="text_fade_animated_visibility">Fade</string>
+    <string name="text_shrink_out_animated_visibility">Shrink Out</string>
+    <string name="text_shrink_horizontal_animated_visibility">Shrink Horizontal</string>
+    <string name="text_shrink_vertical_animated_visibility">Shrink Vertical</string>
+    <string name="text_default_animated_visibility_2">default animated visibility</string>
 </resources>
