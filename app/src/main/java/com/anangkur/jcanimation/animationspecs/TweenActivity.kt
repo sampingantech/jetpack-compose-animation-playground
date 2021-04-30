@@ -54,23 +54,23 @@ class TweenActivity : AppCompatActivity() {
                 },
                 content = {
                     Column(modifier = Modifier.padding(20.dp)) {
-                        Text(text = "Expanded FAB", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFab(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Tween FastOutSlowInEasing", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_tween_fast_out_slow_in), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabTweenFastOutSlowInEasing(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Tween LinearOutSlowInEasing", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_tween_linear_out_slow_in), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabTweenLinearOutSlowInEasing(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Tween FastOutLinearInEasing", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_tween_fast_out_linear_in), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabTweenFastOutLinearInEasing(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Tween LinearEasing", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_tween_linear), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabTweenLinearEasing(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
                     }
@@ -103,7 +103,7 @@ class TweenActivity : AppCompatActivity() {
                         enter = fadeIn() + slideInHorizontally(),
                         exit = fadeOut() + slideOutHorizontally(),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -158,7 +158,7 @@ class TweenActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -213,7 +213,7 @@ class TweenActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -268,7 +268,7 @@ class TweenActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -323,7 +323,7 @@ class TweenActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }

@@ -66,4 +66,8 @@
     <string name="text_expanded_fab_spring_no_bouncy_medium_stiffness">Expanded FAB Spring No Bouncy Medium Stiffness
     </string>
     <string name="button_add_item">Add Item</string>
+    <string name="text_expanded_fab_tween_fast_out_slow_in">Expanded FAB Tween FastOutSlowInEasing</string>
+    <string name="text_expanded_fab_tween_linear_out_slow_in">Expanded FAB Tween LinearOutSlowInEasing</string>
+    <string name="text_expanded_fab_tween_fast_out_linear_in">Expanded FAB Tween FastOutLinearInEasing</string>
+    <string name="text_expanded_fab_tween_linear">Expanded FAB Tween LinearEasing</string>
 </resources>
