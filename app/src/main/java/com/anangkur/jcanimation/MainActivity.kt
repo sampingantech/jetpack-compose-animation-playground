@@ -11,6 +11,7 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.anangkur.jcanimation.animationspecs.SpringActivity
 import com.anangkur.jcanimation.animationspecs.TweenActivity
 import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
 import com.anangkur.jcanimation.highlevel.AnimatedVisibilityActivity
@@ -51,6 +52,11 @@ class MainActivity : AppCompatActivity() {
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { TweenActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_tween)) }
+                        )
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { SpringActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_spring)) }
                         )
                     }
                 }

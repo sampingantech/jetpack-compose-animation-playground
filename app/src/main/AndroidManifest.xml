@@ -16,10 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".highlevel.AnimatedVisibilityActivity"/>
         <activity android:name=".highlevel.AnimateContentSizeActivity"/>
         <activity android:name=".highlevel.CrossFadeActivity"/>
+
         <activity android:name=".animationspecs.TweenActivity"/>
+        <activity android:name=".animationspecs.SpringActivity"/>
     </application>
 
 </manifest>

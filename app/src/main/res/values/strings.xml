@@ -5,6 +5,7 @@
     <string name="title_animated_content_size">Animated Content Size</string>
     <string name="title_cross_fade">Cross Fade</string>
     <string name="title_tween">Tween</string>
+    <string name="title_spring">Spring</string>
 
     <string name="long_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua.
