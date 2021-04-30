@@ -23,6 +23,7 @@
 
         <activity android:name=".animationspecs.TweenActivity"/>
         <activity android:name=".animationspecs.SpringActivity"/>
+        <activity android:name=".animationspecs.KeyFramesActivity"/>
     </application>
 
 </manifest>
