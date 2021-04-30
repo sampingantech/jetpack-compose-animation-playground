@@ -11,10 +11,7 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.anangkur.jcanimation.animationspecs.KeyFramesActivity
-import com.anangkur.jcanimation.animationspecs.RepeatableActivity
-import com.anangkur.jcanimation.animationspecs.SpringActivity
-import com.anangkur.jcanimation.animationspecs.TweenActivity
+import com.anangkur.jcanimation.animationspecs.*
 import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
 import com.anangkur.jcanimation.highlevel.AnimatedVisibilityActivity
 import com.anangkur.jcanimation.highlevel.CrossFadeActivity
@@ -69,6 +66,11 @@ class MainActivity : AppCompatActivity() {
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { RepeatableActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_repeatable)) }
+                        )
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { InfiniteRepeatableActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_infinite_repeatable)) }
                         )
                     }
                 }
