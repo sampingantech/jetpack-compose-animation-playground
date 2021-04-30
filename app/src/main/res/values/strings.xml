@@ -47,4 +47,23 @@
     <string name="text_green">Green</string>
     <string name="text_magenta">Magenta</string>
     <string name="text_dark_gray">DarkGray</string>
+    <string name="text_expanded_fab">Expanded FAB</string>
+    <string name="text_expanded_fab_spring_high_bouncy_high_stiffness">Expanded FAB Spring High Bouncy High Stiffness
+    </string>
+    <string name="text_expanded_fab_high_bouncy_medium_stiffness">Expanded FAB Spring High Bouncy Medium Stiffness
+    </string>
+    <string name="text_expanded_fab_spring_high_bouncy_low_stiffness">Expanded FAB Spring High Bouncy Low Stiffness
+    </string>
+    <string name="text_expanded_fab_spring_high_bouncy_very_low_stiffness">Expanded FAB Spring High Bouncy Very Low
+        Stiffness
+    </string>
+    <string name="text_expanded_fab_spring_medium_bouncy_medium_stiffness">Expanded FAB Spring Medium Bouncy Medium
+        Stiffness
+    </string>
+    <string name="text_expanded_fab_spring_low_bouncy_medium_stiffness">Expanded FAB Spring Low Bouncy Medium
+        Stiffness
+    </string>
+    <string name="text_expanded_fab_spring_no_bouncy_medium_stiffness">Expanded FAB Spring No Bouncy Medium Stiffness
+    </string>
+    <string name="button_add_item">Add Item</string>
 </resources>

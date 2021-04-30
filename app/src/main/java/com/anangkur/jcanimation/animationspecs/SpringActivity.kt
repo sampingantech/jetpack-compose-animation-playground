@@ -57,35 +57,35 @@ class SpringActivity : AppCompatActivity() {
                 },
                 content = {
                     Column(modifier = Modifier.padding(20.dp).verticalScroll(rememberScrollState())) {
-                        Text(text = "Expanded FAB", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFab(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Spring High Bouncy High Stiffness", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_spring_high_bouncy_high_stiffness), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabSpringHighBouncyHighStiffness(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Spring High Bouncy Medium Stiffness", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_high_bouncy_medium_stiffness), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabSpringHighBouncyMediumStiffness(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Spring High Bouncy Low Stiffness", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_spring_high_bouncy_low_stiffness), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabSpringHighBouncyLowStiffness(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Spring High Bouncy Very Low Stiffness", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_spring_high_bouncy_very_low_stiffness), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabSpringHighBouncyVeryLowStiffness(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Spring Medium Bouncy Medium Stiffness", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_spring_medium_bouncy_medium_stiffness), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabSpringMediumBouncyMediumStiffness(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Spring Low Bouncy Medium Stiffness", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_spring_low_bouncy_medium_stiffness), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabSpringLowBouncyMediumStiffness(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
 
-                        Text(text = "Expanded FAB Spring No Bouncy Medium Stiffness", fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                        Text(text = getString(R.string.text_expanded_fab_spring_no_bouncy_medium_stiffness), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFabSpringNoBouncyMediumStiffness(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
                     }
@@ -118,7 +118,7 @@ class SpringActivity : AppCompatActivity() {
                         enter = fadeIn() + slideInHorizontally(),
                         exit = fadeOut() + slideOutHorizontally(),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -159,7 +159,7 @@ class SpringActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -200,7 +200,7 @@ class SpringActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -241,7 +241,7 @@ class SpringActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -282,7 +282,7 @@ class SpringActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -323,7 +323,7 @@ class SpringActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -364,7 +364,7 @@ class SpringActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
@@ -405,7 +405,7 @@ class SpringActivity : AppCompatActivity() {
                             )
                         ),
                     ) {
-                        Text(text = "Add Item", modifier = Modifier.padding(start = 4.dp))
+                        Text(text = getString(R.string.button_add_item), modifier = Modifier.padding(start = 4.dp))
                     }
                 }
             }
