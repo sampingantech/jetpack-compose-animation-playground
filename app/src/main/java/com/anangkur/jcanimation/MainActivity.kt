@@ -12,6 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.anangkur.jcanimation.animationspecs.KeyFramesActivity
+import com.anangkur.jcanimation.animationspecs.RepeatableActivity
 import com.anangkur.jcanimation.animationspecs.SpringActivity
 import com.anangkur.jcanimation.animationspecs.TweenActivity
 import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
@@ -63,6 +64,11 @@ class MainActivity : AppCompatActivity() {
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { KeyFramesActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_keyframe)) }
+                        )
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { RepeatableActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_repeatable)) }
                         )
                     }
                 }

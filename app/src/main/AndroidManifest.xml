@@ -24,6 +24,7 @@
         <activity android:name=".animationspecs.TweenActivity"/>
         <activity android:name=".animationspecs.SpringActivity"/>
         <activity android:name=".animationspecs.KeyFramesActivity"/>
+        <activity android:name=".animationspecs.RepeatableActivity"/>
     </application>
 
 </manifest>
