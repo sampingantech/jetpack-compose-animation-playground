@@ -17,6 +17,7 @@ import com.anangkur.jcanimation.animationspecs.*
 import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
 import com.anangkur.jcanimation.highlevel.AnimatedVisibilityActivity
 import com.anangkur.jcanimation.highlevel.CrossFadeActivity
+import com.anangkur.jcanimation.lowlevel.AnimateAsStateActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -76,6 +77,12 @@ class MainActivity : AppCompatActivity() {
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { SnapActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_snap)) }
+                        )
+                        Text(getString(R.string.title_low_level_api), modifier = Modifier.padding(10.dp))
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { AnimateAsStateActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_animate_as_state)) }
                         )
                     }
                 }

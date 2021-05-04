@@ -27,6 +27,8 @@
         <activity android:name=".animationspecs.RepeatableActivity"/>
         <activity android:name=".animationspecs.InfiniteRepeatableActivity"/>
         <activity android:name=".animationspecs.SnapActivity"/>
+
+        <activity android:name=".lowlevel.AnimateAsStateActivity"/>
     </application>
 
 </manifest>
