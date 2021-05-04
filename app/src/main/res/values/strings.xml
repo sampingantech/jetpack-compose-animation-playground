@@ -82,4 +82,5 @@
     <string name="text_expanded_fab_with_infinite_repeatable_and_repeat_mode_reverse">Expanded FAB with infinite repeatable and RepeatMode
         Reverse
     </string>
+    <string name="text_expanded_fab_with_snap">Expanded FAB with Snap</string>
 </resources>
