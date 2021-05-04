@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
                         )
                         Button(
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
-                            onClick = { InfiniteRepeatableActivity.startActivity(this@MainActivity) },
+                            onClick = { SnapActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_snap)) }
                         )
                     }

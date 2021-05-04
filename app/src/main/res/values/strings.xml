@@ -70,4 +70,17 @@
     <string name="text_expanded_fab_tween_linear_out_slow_in">Expanded FAB Tween LinearOutSlowInEasing</string>
     <string name="text_expanded_fab_tween_fast_out_linear_in">Expanded FAB Tween FastOutLinearInEasing</string>
     <string name="text_expanded_fab_tween_linear">Expanded FAB Tween LinearEasing</string>
+    <string name="text_expanded_fab_with_iteration_3_and_repeat_mode_reverse">Expanded FAB with Iteration 3 and RepeatMode
+        Reverse
+    </string>
+    <string name="text_expanded_fab_with_iteration_3_and_repeat_mode_restart">Expanded FAB with Iteration 3 and RepeatMode
+        Restart
+    </string>
+    <string name="text_expanded_fab_with_infinite_repeatable_and_repeat_mode_restart">Expanded FAB with infinite repeatable and RepeatMode
+        Restart
+    </string>
+    <string name="text_expanded_fab_with_infinite_repeatable_and_repeat_mode_reverse">Expanded FAB with infinite repeatable and RepeatMode
+        Reverse
+    </string>
+    <string name="text_expanded_fab_with_snap">Expanded FAB with Snap</string>
 </resources>
