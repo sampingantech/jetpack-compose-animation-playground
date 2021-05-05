@@ -80,6 +80,8 @@
     </table>
 </p>
 
+<br>
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
