@@ -10,7 +10,6 @@ import androidx.compose.material.Button
 import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
 import androidx.compose.material.TopAppBar
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.anangkur.jcanimation.animationspecs.*
@@ -18,6 +17,7 @@ import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
 import com.anangkur.jcanimation.highlevel.AnimatedVisibilityActivity
 import com.anangkur.jcanimation.highlevel.CrossFadeActivity
 import com.anangkur.jcanimation.lowlevel.AnimateAsStateActivity
+import com.anangkur.jcanimation.lowlevel.UpdateTransitionActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -83,6 +83,11 @@ class MainActivity : AppCompatActivity() {
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { AnimateAsStateActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_animate_as_state)) }
+                        )
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { UpdateTransitionActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_update_transition)) }
                         )
                     }
                 }

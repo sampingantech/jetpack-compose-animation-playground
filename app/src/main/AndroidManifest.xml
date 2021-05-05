@@ -29,6 +29,7 @@
         <activity android:name=".animationspecs.SnapActivity"/>
 
         <activity android:name=".lowlevel.AnimateAsStateActivity"/>
+        <activity android:name=".lowlevel.UpdateTransitionActivity"/>
     </application>
 
 </manifest>
