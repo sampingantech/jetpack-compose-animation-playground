@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-    <p align="center">High-Level APIs</p>
+    <h3 align="center">High-Level APIs</h3>
     <table>
       <tr>
         <td><img src="app/src/main/assets/animatedVisibility.gif" alt="animatedVisibility"></td>
@@ -40,7 +40,8 @@
         <td align="center">crossFade</td>
       </tr>
     </table>
-    <p align="center">Low-Level APIs</p>
+    <br>
+    <h3 align="center">Low-Level APIs</h3>
     <table>
         <tr>
             <td><img src="app/src/main/assets/animateAsState.gif" alt="animateAsState"></td>
@@ -53,7 +54,8 @@
             <td align="center">rememberInfiniteTransition</td>
         </tr>
     </table>
-    <p align="center">Animation Specs</p>
+    <br>
+    <h3 align="center">Animation Specs</h3>
     <table>
         <tr>
             <td><img src="app/src/main/assets/spring.gif" alt="spring"></td>
