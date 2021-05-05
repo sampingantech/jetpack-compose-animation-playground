@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -53,7 +55,7 @@ class TweenActivity : AppCompatActivity() {
                     )
                 },
                 content = {
-                    Column(modifier = Modifier.padding(20.dp)) {
+                    Column(modifier = Modifier.padding(20.dp).verticalScroll(rememberScrollState())) {
                         Text(text = getString(R.string.text_expanded_fab), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                         ExpandableFab(modifier = Modifier.padding(top = 10.dp))
                         Divider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
