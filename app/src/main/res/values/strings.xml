@@ -27,6 +27,10 @@
     <string name="text_default_animated_visibility">Default (enter: fadeIn() + expandHorizontally(), exit: fadeOut() +
         shrinkHorizontally())
     </string>
+    <string name="title_low_level_api">Low-Level APIs</string>
+    <string name="title_animate_as_state">Animate*AsState</string>
+    <string name="title_update_transition">UpdateTransition</string>
+    <string name="title_remember_infinite_transition">RememberInfiniteTransition</string>
     <string name="text_slide_animated_visibility">Slide</string>
     <string name="text_slide_horizontal_animated_visibility">Slide Horizontal</string>
     <string name="text_slide_vertical_animated_visibility">Slide Vertical</string>
@@ -83,4 +87,9 @@
         Reverse
     </string>
     <string name="text_expanded_fab_with_snap">Expanded FAB with Snap</string>
+    <string name="text_expanded_fab_animate_color_with_animate_color_as_state">Expanded FAB Animate Color with animateColorAsState</string>
+    <string name="text_expanded_fab_animate_size_with_animate_int_size_as_state">Expanded FAB Animate Size with animateIntSizeAsState</string>
+    <string name="text_expanded_fab_animate_position_with_animate_dp_as_state">Expanded FAB Animate Position with animateDpAsState</string>
+    <string name="text_expanded_fab_animate_color_size_position_with_updatetransition">Expanded FAB Animate Color, Size and Position with UpdateTransition</string>
+    <string name="text_expanded_fab_animate_color_size_position_with_rememberinfinitetransition">Expanded FAB Animate Color, Size and Position with RememberInfiniteTransition</string>
 </resources>
