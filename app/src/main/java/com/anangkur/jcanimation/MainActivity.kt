@@ -17,6 +17,7 @@ import com.anangkur.jcanimation.highlevel.AnimateContentSizeActivity
 import com.anangkur.jcanimation.highlevel.AnimatedVisibilityActivity
 import com.anangkur.jcanimation.highlevel.CrossFadeActivity
 import com.anangkur.jcanimation.lowlevel.AnimateAsStateActivity
+import com.anangkur.jcanimation.lowlevel.RememberInfiniteTransitionActivity
 import com.anangkur.jcanimation.lowlevel.UpdateTransitionActivity
 
 class MainActivity : AppCompatActivity() {
@@ -88,6 +89,11 @@ class MainActivity : AppCompatActivity() {
                             modifier = Modifier.padding(10.dp).fillMaxWidth(),
                             onClick = { UpdateTransitionActivity.startActivity(this@MainActivity) },
                             content = { Text(text = getString(R.string.title_update_transition)) }
+                        )
+                        Button(
+                            modifier = Modifier.padding(10.dp).fillMaxWidth(),
+                            onClick = { RememberInfiniteTransitionActivity.startActivity(this@MainActivity) },
+                            content = { Text(text = getString(R.string.title_remember_infinite_transition)) }
                         )
                     }
                 }

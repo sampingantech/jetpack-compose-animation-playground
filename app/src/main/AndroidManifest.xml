@@ -30,6 +30,7 @@
 
         <activity android:name=".lowlevel.AnimateAsStateActivity"/>
         <activity android:name=".lowlevel.UpdateTransitionActivity"/>
+        <activity android:name=".lowlevel.RememberInfiniteTransitionActivity"/>
     </application>
 
 </manifest>
