@@ -30,9 +30,9 @@
     <p align="center">High-Level APIs</p>
     <table>
       <tr>
-        <td><img src="app/src/main/asset/animatedVisibility.gif" alt="animatedVisibility"></td>
-        <td><img src="app/src/main/asset/animatedContentSize.gif" alt="animatedContentSize"></td>
-        <td><img src="app/src/main/asset/crossFade.gif" alt="crossFade"></td>
+        <td><img src="app/src/main/assets/animatedVisibility.gif" alt="animatedVisibility"></td>
+        <td><img src="app/src/main/assets/animatedContentSize.gif" alt="animatedContentSize"></td>
+        <td><img src="app/src/main/assets/crossFade.gif" alt="crossFade"></td>
       </tr>
       <tr>
         <td align="center">animatedVisibility</td>
@@ -43,9 +43,9 @@
     <p align="center">Low-Level APIs</p>
     <table>
         <tr>
-            <td><img src="app/src/main/asset/animateAsState.gif" alt="animateAsState"></td>
-            <td><img src="app/src/main/asset/updateTransition.gif" alt="updateTransition"></td>
-            <td><img src="app/src/main/asset/rememberInfiniteTransition.gif" alt="rememberInfiniteTransition"></td>
+            <td><img src="app/src/main/assets/animateAsState.gif" alt="animateAsState"></td>
+            <td><img src="app/src/main/assets/updateTransition.gif" alt="updateTransition"></td>
+            <td><img src="app/src/main/assets/rememberInfiniteTransition.gif" alt="rememberInfiniteTransition"></td>
         </tr>
         <tr>
             <td align="center">animateAsState</td>
@@ -56,9 +56,9 @@
     <p align="center">Animation Specs</p>
     <table>
         <tr>
-            <td><img src="app/src/main/asset/spring.gif" alt="spring"></td>
-            <td><img src="app/src/main/asset/tween.gif" alt="tween"></td>
-            <td><img src="app/src/main/asset/keyframes.gif" alt="keyframes"></td>
+            <td><img src="app/src/main/assets/spring.gif" alt="spring"></td>
+            <td><img src="app/src/main/assets/tween.gif" alt="tween"></td>
+            <td><img src="app/src/main/assets/keyframes.gif" alt="keyframes"></td>
         </tr>
         <tr>
             <td align="center">spring</td>
@@ -66,9 +66,9 @@
             <td align="center">keyframes</td>
         </tr>
         <tr>
-            <td><img src="app/src/main/asset/repeatable.gif" alt="repeatable"></td>
-            <td><img src="app/src/main/asset/infiniteRepeatable.gif" alt="infiniteRepeatable"></td>
-            <td><img src="app/src/main/asset/snap.gif" alt="snap"></td>
+            <td><img src="app/src/main/assets/repeatable.gif" alt="repeatable"></td>
+            <td><img src="app/src/main/assets/infiniteRepeatable.gif" alt="infiniteRepeatable"></td>
+            <td><img src="app/src/main/assets/snap.gif" alt="snap"></td>
         </tr>
         <tr>
             <td align="center">repeatable</td>
