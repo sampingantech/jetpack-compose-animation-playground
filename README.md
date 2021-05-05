@@ -17,8 +17,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-  </a>
+  <a href="https://github.com/othneildrew/Best-README-Template"></a>
 
   <h1 align="center">Jetpack Compose Animation Playground</h1>
 
@@ -28,7 +27,55 @@
 </p>
 
 <p align="center">
-    add screenshots or gifs here
+    <p align="center">High-Level APIs</p>
+    <table>
+      <tr>
+        <td><img src="app/src/main/asset/animatedVisibility.gif" alt="animatedVisibility"></td>
+        <td><img src="app/src/main/asset/animatedContentSize.gif" alt="animatedContentSize"></td>
+        <td><img src="app/src/main/asset/crossFade.gif" alt="crossFade"></td>
+      </tr>
+      <tr>
+        <td align="center">animatedVisibility</td>
+        <td align="center">animatedContentSize</td>
+        <td align="center">crossFade</td>
+      </tr>
+    </table>
+    <p align="center">Low-Level APIs</p>
+    <table>
+        <tr>
+            <td><img src="app/src/main/asset/animateAsState.gif" alt="animateAsState"></td>
+            <td><img src="app/src/main/asset/updateTransition.gif" alt="updateTransition"></td>
+            <td><img src="app/src/main/asset/rememberInfiniteTransition.gif" alt="rememberInfiniteTransition"></td>
+        </tr>
+        <tr>
+            <td align="center">animateAsState</td>
+            <td align="center">updateTransition</td>
+            <td align="center">rememberInfiniteTransition</td>
+        </tr>
+    </table>
+    <p align="center">Animation Specs</p>
+    <table>
+        <tr>
+            <td><img src="app/src/main/asset/spring.gif" alt="spring"></td>
+            <td><img src="app/src/main/asset/tween.gif" alt="tween"></td>
+            <td><img src="app/src/main/asset/keyframes.gif" alt="keyframes"></td>
+        </tr>
+        <tr>
+            <td align="center">spring</td>
+            <td align="center">tween</td>
+            <td align="center">keyframes</td>
+        </tr>
+        <tr>
+            <td><img src="app/src/main/asset/repeatable.gif" alt="repeatable"></td>
+            <td><img src="app/src/main/asset/infiniteRepeatable.gif" alt="infiniteRepeatable"></td>
+            <td><img src="app/src/main/asset/snap.gif" alt="snap"></td>
+        </tr>
+        <tr>
+            <td align="center">repeatable</td>
+            <td align="center">infiniteRepeatable</td>
+            <td align="center">snap</td>
+        </tr>
+    </table>
 </p>
 
 <!-- TABLE OF CONTENTS -->
